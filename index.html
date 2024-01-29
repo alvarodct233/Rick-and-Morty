@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link rel="stylesheet" href="src/style/style.css"> 
+</head>
+<body>
+    <header>
+        <img class="title" src="src/img/titulo2.png">
+    </header> 
+
+<main class="grid main">
+    <aside id="asideBox" class="asideBox">
+        <h3 id="BoxTitle" class="BoxTitle"></h3>
+        <p id="PBox"></p>
+        <ul id="BoxList" class="BoxList">
+        </ul>
+
+        <div class="buttons">
+            <button id ="backBtn" class="btn-class-name">
+                <span>Back</span>
+            </button>
+            <button id ="nextBtn" class="btn-class-name"> 
+                <span>Next</span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"> 
+                </svg>
+            </button>
+        </div>
+    </aside>
+    
+    <section id="pricipalBox" class="charactercard col-start-2 col-end-5">
+    </section>
+</main>
+
+    <script type="module" src="dist/app.js "></script> 
+
+</body >
+</html >

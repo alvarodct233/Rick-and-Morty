@@ -27,10 +27,6 @@ export const MainLocationClick = () => {
 }
 
 
-
-
-
-
 export const AsideEpisodeClick = (e:any):void => {
     
     const id = e.target.getAttribute('episode-id') || e.target.parentElement.getAttribute('episode-id')

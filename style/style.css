@@ -15,6 +15,7 @@ body {
 .charactercard {
     background-color: black;
     color: aquamarine;
+    display: flex;
 }
 
 .buttons {

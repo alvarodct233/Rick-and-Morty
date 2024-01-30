@@ -518,7 +518,7 @@ export const printMainLocation = async (id:number):Promise<void> => {
     listDiv.appendChild(charactersUl)
 
     HTMLFragment.appendChild(listDiv)
- 
+
     pricipalBox.appendChild(HTMLFragment)   
 
     const characterList = document.querySelectorAll('.characterFromMain') as NodeList    

@@ -3,7 +3,6 @@ export const locationUrl = 'https://rickandmortyapi.com/api/location?page=1'
 
 
 export const pricipalBox = document.getElementById('pricipalBox') as HTMLElement 
-
 export const asideBox = document.getElementById('asideBox') as HTMLElement 
 export const BoxTitle = document.getElementById('BoxTitle') as HTMLHeadingElement
 export const PBox = document.getElementById('PBox') as HTMLParagraphElement

@@ -36,5 +36,5 @@ export type Character  = {
 
 type CharacterLocation  = {
     name: string, 
-    url: string
+    url: string,
 }

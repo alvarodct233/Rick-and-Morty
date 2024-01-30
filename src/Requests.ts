@@ -1,5 +1,5 @@
 import { Character, Episode, Location } from "./types.js"
- 
+    
 export const getEpisodes = async ( url:string ) => { 
     
     const response = await fetch(url) 
